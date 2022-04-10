@@ -1,0 +1,133 @@
+* {margin:0;padding:0;}
+body {background-color:whitesmoke;}
+.contenitoreBarra {display:flex;flex-direction: row;justify-content: space-around;margin:20px}
+.baraTutti {width:120px;text-align:center}
+.baraTutti:hover {border-left:2px solid white;border-right:2px solid white}
+.baraTutti a {text-decoration: none;color:white;}
+.fooder {height:162px;background-color:black;}
+/*home*/
+
+.header {background-color:black; height:200px}
+
+#centroHome {display:flex;flex-direction: row;margin:35px;}
+#vuotoHome {flex:1.3}
+#testoHome {flex:1}
+#testoHomeStile {font-family: 'Pinyon Script', cursive;font-size:20px;text-align: justify;}
+#immagineHome {flex:1;display: flex;flex-direction: column;align-items:center}
+.immagineCasa {height:300px;width:300px;margin:30px}
+
+
+
+
+
+/*lucia.html */
+.titolo {text-align: center;font-family: 'Pinyon Script', cursive;text; font-size: 70px;letter-spacing: 3px;color:white}
+#layoutBarra {display:flex;flex-direction: row;justify-content: space-around;margin:25px}
+.sottolayoutBarra {display: flex; flex-direction: column; height:150px;}
+.linkBarra {text-decoration: none;color:goldenrod; font-size:40px;font-family: 'Pinyon Script', cursive;}
+
+input[type="button"] {
+    width:300px;
+    height:40px;
+    font-weight: bold;
+    font-size:20px;
+    border:2px solid black;
+    cursor: pointer;
+    background-color: #333;
+    color:white;
+}
+
+input:hover {
+    background-color: #666;
+}
+
+nav {
+    background-color: #333;
+    
+    display:none;
+}
+
+
+nav.active {
+
+
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+nav ul {
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+nav ul li:hover{
+    background-color: #666;
+}
+
+
+
+nav ul a {
+
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    margin:3px;
+    
+}
+
+/* sfondo dei paesi */
+
+
+#sfondoPaese {
+display:flex;
+flex-direction: row;
+height:400px;
+margin:20px;
+
+}
+
+#sanvito {flex:1; 
+    background-image:url(https://turismo.abruzzo.it/wp-content/uploads/sites/118/san-vito-chietino-notte-hd.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+}
+
+#lanciano {flex:1;
+    
+    background-image:url(https://1.bp.blogspot.com/-qURH6RZfCXM/YGAw9T1MCmI/AAAAAAAA5xU/ed5CqQ8SDqMNzDNDP7gnmc7-ccyNdg1QACLcBGAsYHQ/s550/lanciano10.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+}
+
+#ortona { flex:1;
+    background-image:url(https://turismo.abruzzo.it/wp-content/uploads/sites/118/ortona-hd.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+
+}
+#fossacesia { flex:1;
+    background-image:url(http://damianofantini.it/wp-content/uploads/2017/04/sposi-abbazia.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+
+}
+
+/* SAN VITO CHIETINO */
+
+#sfondosanvito {
+
+    background-image:url("https://turismo.abruzzo.it/wp-content/uploads/sites/118/san-vito-chietino-notte-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100vh;
+
+
+}
